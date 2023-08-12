@@ -1,6 +1,6 @@
 # Object Recognition Pipeline Documentation
 
-This documentation provides an overview of the implementation and steps taken to complete the "Object Recognition" code challenge. The goal of this challenge is to build an object recognition pipeline using a pre-trained model and evaluate its performance on a dataset. 
+The goal of this challenge is to build an object recognition pipeline using a pre-trained model and evaluate its performance on a dataset. 
 
 ## Dataset
 
@@ -18,7 +18,7 @@ The implementation of the object recognition pipeline follows the provided instr
    - Install the required dependencies by running `pip install -r yolov5/requirements.txt`.
 
 2. Data Augmentation:
-   - Since yolo training has augmentation No specific data augmentation techniques were applied in this implementation. However, a sample function named `data_augmentation.py` is provided for reference.
+   - Since yolo training has augmentation No specific data augmentation techniques were applied in this implementation. 
 
 3. Dataset Loading and Splitting:
    - The dataset was downloaded and stored in the appropriate directories.
